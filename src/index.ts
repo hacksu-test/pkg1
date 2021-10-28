@@ -7,3 +7,5 @@ interface thing {
 export let bruh: thing = {
     name: "hi there"
 }
+
+console.log({ bruh })
