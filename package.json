@@ -1,5 +1,5 @@
 {
-  "name": "@hacksu-test/pkg1",
+  "name": "@hacksu/pkg1",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
