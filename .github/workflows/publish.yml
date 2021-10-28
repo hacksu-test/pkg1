@@ -21,10 +21,11 @@ jobs:
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          
+
       - uses: actions/setup-node@v2
         with:
           registry-url: 'https://npm.pkg.github.com'
+          scope: '@hacksu-test'
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
